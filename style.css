@@ -1,0 +1,62 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagenes/fondo.jpg);
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.nombre {
+    text-align: center;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    background-image:url(imagenes/foto1.jpeg);
+    color: #ffffff;
+
+}
+
+.email {
+    text-align: center;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    background-image:url(imagenes/foto1.jpeg);
+    color: #ffffff;
+}
+
+.telefono {
+    text-align: center;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    padding: 20px;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    background-image:url(imagenes/foto1.jpeg);
+    color: #ffffff;
+}
+
+header{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+
+.boton {
+        display: flex;
+        justify-content: center;
+        background-color: #050505;
+    
+}
+
